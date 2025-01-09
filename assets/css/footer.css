@@ -1,0 +1,143 @@
+
+footer {
+    position: relative;
+    min-height: 290px;
+    width: 100%;
+    padding: 53px 0 46px 0;
+}
+
+footer:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../images/footerBg.png');
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.footer-title {
+    font-family: 'Soyuz Grotesk';
+    font-size: 78.62px;
+    font-weight: 700;
+    line-height: 75.71px;
+    text-align: center;
+    color: var(--green);
+    margin-top: -20px;
+
+}
+
+.footer-columns {
+    column-gap: 124px;
+    row-gap: 37px;
+    flex-wrap: wrap;
+}
+
+.footer-menu-list {
+    gap: 6px;
+}
+
+.menu-title {
+    padding-bottom: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 1px;
+    color: var(--primary5);
+
+}
+
+.footer-menu-link {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21.7px;
+    color: var(--white);
+    transition: .3s;
+
+
+}
+
+.footer-menu-link:hover {
+    color: var(--green);
+
+}
+
+.footer-clue {
+    margin-top: 5px;
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--white);
+    line-height: 19px;
+
+
+}
+
+.footer-btn-cnt {
+    display: none;
+    margin-top: 28px;
+}
+
+@media (max-width: 1400px) {
+}
+
+@media (max-width: 1200px) {
+
+
+}
+
+@media (max-width: 992px) {
+
+
+}
+
+@media (max-width: 768px) {
+
+
+}
+
+@media (max-width: 576px) {
+    .footer-clue {
+        margin-top: 25px;
+    }
+
+    .footer-btn-cnt {
+        display: block;
+    }
+
+    footer {
+        min-height: 661px;
+        padding: 30px 0 83px 0;
+    }
+
+    .footer-btn-register {
+        padding: 18px 50px;
+        border-radius: 15.75px;
+        background: var(--green);
+        font-size: 18.9px;
+        font-weight: 500;
+        line-height: 25.82px;
+        color: var(--primary3);
+
+    }
+    footer:after {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+        background-image: url('../images/footerBgMobile.png');
+        background-repeat: no-repeat;
+        z-index: -1;
+    }
+}
+
+@media (max-width: 400px) {
+
+}

@@ -1,0 +1,41 @@
+
+
+@font-face {
+    font-family: "Manrope";
+    src: url('Manrope-Bold.woff') format('woff'),
+    local('Manrope-Bold.woff');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Manrope";
+    src: url('Manrope-SemiBold.woff') format('woff'),
+    local('Manrope-SemiBold.woff');
+    font-weight: 600;
+}
+@font-face {
+    font-family: "Manrope";
+    src: url('Manrope-Medium.woff') format('woff'),
+    local('Manrope-Medium.woff');
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Manrope";
+    src: url('Manrope-Regular.woff') format('woff'),
+    local('Manrope-Regular.woff');
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Manrope";
+    src: url('Manrope-Light.woff') format('woff'),
+    local('Manrope-Light.woff');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Soyuz Grotesk';
+    src: url('Soyuz-Grotesk-Bold.woff') format('woff'),
+    local('Soyuz-Grotesk-Bold.woff');
+    font-weight: 700;
+}
+
+

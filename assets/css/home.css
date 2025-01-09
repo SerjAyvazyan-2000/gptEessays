@@ -1,0 +1,2176 @@
+
+.hero-body {
+    gap: 20px;
+    position: relative;
+
+}
+
+.hero-section {
+    position: relative;
+}
+
+.hero-picture {
+    max-width: 493px;
+    width: 100%;
+    height: 649px;
+    position: relative;
+    background-position: -300px 0;
+    z-index: 4;
+
+}
+
+
+.hero-blur {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 532px;
+
+}
+
+.hero-smail {
+    position: absolute;
+}
+
+.hero-smail--one {
+    left: 72px;
+    top: 100px;
+}
+
+.hero-smail--two {
+    top: 50%;
+    right: -100px;
+    max-width: 204px;
+    transform: translate(0, -50%) rotate(31deg);
+}
+
+.hero-snake {
+    position: absolute;
+    right: 0;
+    top: -190px;
+    z-index: 3;
+}
+
+.hero-picture-info {
+    align-items: flex-start;
+    background: var(--primary2);
+    border-radius: 26px;
+    border: 1.63px solid var(--black2);
+    backdrop-filter: blur(25px);
+    box-shadow: 8.15px 40px 40.74px -26.07px rgba(32, 32, 32, 0.2);
+    padding: 17px 14px 22px 14px;
+    gap: 16px;
+    max-width: 310px;
+    position: absolute;
+    bottom: 60px;
+    left: -120px;
+
+}
+
+
+.picture-author {
+    flex: 0 0 54px;
+    height: 54px;
+    border-radius: 50%;
+    position: relative;
+
+}
+
+.picture-author img {
+    border-radius: 50%;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.picture-author::before {
+    content: "";
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    background: rgba(88, 238, 42, 1);
+    right: 0;
+    top: 12px;
+    border-radius: 50%;
+
+}
+
+
+.picture-info {
+    color: var(--white);
+    max-width: 210px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 16.5px;
+
+
+}
+
+.hero-text-info {
+    margin-top: 43px;
+    position: relative;
+}
+
+.hero-title {
+    gap: 32px;
+}
+
+.hero-title p {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.78px;
+    color: var(--green);
+
+}
+
+.hero-main-title {
+    font-family: 'Soyuz Grotesk';
+    font-size: 127.3px;
+    font-weight: 700;
+    line-height: 60px;
+    color: var(--white);
+
+}
+
+.for-free {
+    position: absolute;
+    right: 0;
+    font-family: 'Soyuz Grotesk';
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 48.15px;
+    text-align: center;
+    color: var(--green);
+    transform: rotate(-4deg);
+    margin-top: 20px;
+}
+
+.hero-title-clue {
+    background: var(--black3);
+    border: 1.42px solid var(--black3);
+    backdrop-filter: blur(14.18821907043457px);
+    box-shadow: 7.09px 17.41px 35.47px -22.7px rgba(32, 32, 32, 0.4);
+    transform: rotate(2deg);
+    border-radius: 21.28px;
+    margin-top: 140px;
+    max-width: max-content;
+    padding: 14px 28px;
+    gap: 10px;
+
+
+}
+
+.hero-title-clue span {
+    font-family: 'Soyuz Grotesk';
+    font-size: 30.86px;
+    font-weight: 700;
+    line-height: 29.72px;
+    text-align: center;
+    color: var(--white);
+    margin-top: -5px;
+}
+
+.hero-title-clue p {
+    font-family: 'Soyuz Grotesk';
+    font-size: 30.86px;
+    font-weight: 700;
+    line-height: 29.72px;
+    text-align: center;
+    color: var(--green);
+    margin-top: -5px;
+
+}
+
+.hero-btn-cnt {
+    margin-top: 110px;
+}
+
+.icon-arrow-right {
+    font-size: 25px;
+    background: var(--green);
+}
+
+.hero-arrow-right {
+    font-size: 20px;
+    background: var(--black);
+}
+
+.hero-text-road {
+    gap: 22px;
+    margin-top: 28px;
+    flex-wrap: wrap;
+
+}
+
+.hero-text-road p {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    color: var(--white);
+    position: relative;
+
+
+}
+
+.hero-text-road p::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 30px;
+    height: 100%;
+    margin-left: -60px;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../images/icons/arrowRight.svg');
+    background-repeat: no-repeat;
+    display: none;
+
+
+}
+
+.icon-fire {
+    max-width: 53px;
+    transform: rotate(14deg);
+    margin-left: -20px;
+}
+
+.services-section {
+    min-height: 605px;
+    padding: 106px 0 196px 0;
+    position: relative;
+}
+
+.services-section::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../images/servicesDecor.png');
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+
+.services-body {
+    gap: 17px;
+    position: relative;
+    z-index: 2;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.services-big-item {
+    max-width: 506px;
+    height: 306px;
+    padding: 37px 27px;
+    width: 100%;
+    background-image: url('../images/servicesItemBg.png');
+}
+
+.services-column {
+    gap: 19px;
+}
+
+.services-item-users {
+    gap: 27px;
+}
+
+.services-users-clue {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 34.15px;
+    letter-spacing: 0.02em;
+    color: var(--white);
+}
+
+.services-users-clue span {
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 34.15px;
+    letter-spacing: 0.02em;
+    color: var(--green);
+
+
+}
+
+.services-item-info {
+    margin-top: 41px;
+}
+
+.services-item-title {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    color: var(--green);
+
+}
+
+.services-item-descr {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color: var(--white);
+    margin-top: 14px;
+
+}
+
+.services-small-item {
+    padding: 29px 37px;
+    background: var(--green);
+    border-radius: 26px;
+
+}
+
+.small-item-smiling {
+    display: none;
+}
+
+.small-item-texts h3 {
+    font-size: 45.32px;
+    font-weight: 700;
+    line-height: 45.32px;
+    color: var(--primary3);
+
+
+}
+
+.small-item-texts p {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 17.17px;
+    margin-top: 9px;
+    color: var(--primary3);
+
+}
+
+.services-black-item {
+    background: var(--black4);
+    border-radius: 26px;
+    padding: 20px;
+    gap: 13px;
+    margin-left: -120px;
+}
+
+.black-item-img {
+    max-width: 106px;
+    height: 113px;
+    width: 100%;
+}
+
+.black-item-img img {
+    object-fit: cover;
+    width: 100%;
+    border-radius: 7px;
+    height: 100%;
+}
+
+.black-item-info h3 {
+    font-family: 'Soyuz Grotesk';
+    font-size: 30.86px;
+    font-weight: 700;
+    line-height: 29.72px;
+    text-align: center;
+    color: var(--green);
+    background: rgba(255, 255, 255, 0.2);
+    border: 1.42px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(14.18821907043457px);
+    box-shadow: 7.09px 17.41px 35.47px -22.7px rgba(32, 32, 32, 0.4);
+    padding: 16px 22px;
+    transform: rotate(6deg);
+    border-radius: 21.28px;
+    max-width: max-content;
+    margin-left: auto;
+
+}
+
+.black-item-info p {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color: var(--white);
+
+}
+
+.services-average-item {
+    width: 400px;
+    position: relative;
+    height: 306px;
+    padding: 32px 35px 21px 35px;
+    justify-content: space-between;
+}
+
+.services-average-gif {
+    max-width: 250px;
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+}
+
+.services-header-texts {
+    gap: 10px;
+}
+
+.services-header-texts p {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20.2px;
+    color: var(--white);
+
+
+}
+
+.services-footer-texts {
+    gap: 10px;
+
+}
+
+.services-footer-texts p {
+    font-size: 17.04px;
+    font-weight: 500;
+    line-height: 23.28px;
+    text-align: center;
+    color: var(--white);
+
+
+}
+
+.icon-openAI {
+    font-size: 22px;
+    background: var(--white);
+
+}
+
+
+.possibilities-section {
+    background: white;
+    margin-top: -4px;
+    position: relative;
+    transform: none !important;
+
+}
+
+.possibilities-section::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -140px;
+    background-image: url('../images/reviewsDecor.png');
+    height: 542px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    z-index: 2;
+
+}
+
+.possibilities-descr {
+    margin-top: 22px;
+}
+
+.possibilities-descr p {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color: var(--gray);
+    max-width: 436px;
+}
+
+.possibilities-like {
+    flex: 0 0 40px;
+    height: 40px;
+
+}
+
+.possibilities-descr img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.possibilities-body {
+    gap: 70px;
+    position: relative;
+    z-index: 3;
+}
+
+.possibilities-item {
+    max-width: 618px;
+    width: 100%;
+    height: 360px;
+    position: relative;
+    padding: 32px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+}
+.possibilities-white-item{
+    max-width: 618px;
+    width: 100%;
+    height: 360px;
+    position: relative;
+    padding: 32px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.possibilities-item-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.possibilities-white-item-bg{
+    position: absolute;
+    width: 110%;
+    height: 120%;
+    left: -30px;
+    top: -30px;
+    z-index: -1;
+}
+.possibilities-white-item-bg img{
+    width: 100%;
+    height: 100%;
+}
+.possibilities-item-bg img {
+    width: 100%;
+    height: 100%;
+
+}
+
+
+
+.possibilities-item:hover .possibilities-title {
+    color: #ff6347;
+    transition: color 0.3s ease;
+}
+
+.possibilities-item:hover .possibilities-text {
+    color: #ffa07a;
+    transition: color 0.3s ease;
+}
+.possibilities-white-item:hover .possibilities-title {
+    color: #ff6347;
+    transition: color 0.3s ease;
+}
+
+.possibilities-white-item:hover .possibilities-text {
+    color: #ffa07a;
+    transition: color 0.3s ease;
+}
+
+.details-icon {
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.possibilities-item:hover .details-icon {
+    transform: rotate(45deg);
+    color: #ff6347;
+}
+
+.possibilities-item:hover .possibilities-clue {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    opacity: 1;
+}
+
+.possibilities-white-item:hover .details-icon {
+    transform: rotate(45deg);
+    color: #ff6347;
+}
+
+.possibilities-white-item:hover .possibilities-clue {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    opacity: 1;
+}
+
+.possibilities-item:last-child {
+    z-index: 3;
+}
+
+.possibilities-items {
+    gap: 10px;
+}
+
+
+.possibilities-details-icon {
+    width: 88px;
+    height: 88px;
+    background: var(--green);
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+
+}
+
+.white-details-icon {
+    width: 88px;
+    height: 88px;
+    background: var(--green);
+    border-radius: 50%;
+    position: absolute;
+    right: 30px;
+    bottom: 0;
+}
+
+.possibilities-arrow {
+    font-size: 30px;
+    background: var(--black);
+    transform: rotate(-45deg);
+}
+
+.possibilities-info {
+    gap: 39px;
+}
+
+.possibilities-title {
+    font-family: 'Soyuz Grotesk';
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+
+}
+
+.black-title {
+    color: var(--black);
+
+}
+
+.white-title {
+    color: var(--white);
+}
+
+.white-text {
+    color: var(--white3);
+}
+
+.possibilities-text {
+    max-width: 330px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-top: 45px;
+}
+
+.gray-text {
+    color: var(--gray);
+}
+
+.possibilities-like {
+    margin-left: 20px;
+}
+
+.possibilities-picture {
+    max-width: 174px;
+    width: 100%;
+    height: 185px;
+}
+
+.possibilities-picture img {
+    border-radius: 20px;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+
+}
+
+.possibilities-clues {
+    margin-top: 83px;
+    gap: 11px;
+}
+
+.possibilities-text-mobile {
+    display: none;
+}
+
+.possibilities-clue {
+    border-radius: 16px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24.59px;
+    padding: 9px 21px;
+    transition: .3s;
+
+}
+
+.white-clue {
+    border: 1px solid var(--white2);
+    background: var(--white);
+    box-shadow: 0px 0px 36.93px 0px rgba(90, 58, 202, 0.08);
+    color: var(--black);
+
+}
+
+.green-clue {
+    background: var(--green);
+    color: var(--black);
+    border: 1px solid rgba(165, 194, 65, 1)
+}
+
+
+.how-works-section {
+    position: relative;
+    padding-top: 112px;
+}
+
+.how-works-section::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -100px;
+    width: 100%;
+    height: 542px;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../images/howWorksDecor.png');
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.how-works-section::after {
+    content: "";
+    position: absolute;
+    right: -140px;
+    top: -50px;
+    width: 800px;
+    height: 402px;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../images/howWorksSnacke.png');
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.how-works-body {
+    position: relative;
+    z-index: 4;
+}
+
+.how-works-titles {
+    position: relative;
+
+}
+
+.how-works-title {
+    font-family: 'Soyuz Grotesk';
+    font-size: 77.08px;
+    font-weight: 700;
+    line-height: 74.23px;
+    color: var(--white);
+
+}
+
+.works-title-clue {
+    background: var(--green);
+    border-radius: 21.28px;
+    backdrop-filter: blur(14.18821907043457px);
+    box-shadow: 0px 0px 35.47px -22.7px rgba(32, 32, 32, 0.4);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    color: var(--primary3);
+    padding: 17px 30px;
+    transform: rotate(2deg);
+    max-width: max-content;
+    position: absolute;
+    left: 224px;
+    bottom: 0;
+
+}
+
+
+.how-works-slider {
+    margin-top: 59px;
+
+}
+
+.works-swiper {
+    overflow: unset !important;
+}
+
+.how-works-item {
+    padding: 35px 35px 59px 35px;
+    border: 1px solid rgba(117, 90, 213, 1);
+    border-radius: 36px;
+    max-width: 386px;
+    width: 100%;
+
+}
+
+.works-item-titles {
+    gap: 26px;
+}
+
+.works-item-titles span {
+    font-family: 'Soyuz Grotesk';
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 38.52px;
+    color: var(--green);
+
+}
+
+.works-item-titles p {
+    font-family: 'Soyuz Grotesk';
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 38.52px;
+    color: var(--white);
+}
+
+.works-item-picture {
+    margin-top: 25px;
+    max-width: 275px;
+    height: 205px;
+}
+
+.works-item-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.works-item-clue {
+    margin-top: 26px;
+    gap: 21px;
+}
+
+.works-text-clue {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24.59px;
+    color: var(--black);
+    background: var(--green);
+    border-radius: 16px;
+    border: 1px solid rgba(165, 194, 65, 1);
+    padding: 9px 21px;
+    max-width: max-content;
+
+}
+
+.works-item-icons {
+    gap: 5px;
+}
+
+.works-item-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.how-works-text {
+    margin-top: 16px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color: var(--white3);
+
+
+}
+
+
+.works-btn-cnt {
+    margin-top: 52px;
+}
+
+.still-scrolling-icon {
+    width: 77px;
+    height: 77px;
+
+}
+
+.still-scrolling-icon img {
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    object-fit: cover;
+}
+
+.still-scrolling-body {
+    margin-top: 139px;
+}
+
+.still-scrolling-titles {
+    gap: 18px;
+    margin-top: 17px;
+
+}
+
+.still-scrolling-titles h3 {
+    font-family: 'Soyuz Grotesk';
+    font-size: 36.26px;
+    font-weight: 700;
+    line-height: 34.92px;
+    color: var(--green);
+}
+
+.still-scrolling-smail {
+    max-width: 29px;
+    display: flex;
+}
+
+.still-scrolling-sub {
+    margin-top: 20px;
+    font-family: ' Soyuz Grotesk';
+    font-size: 24.63px;
+    font-weight: 700;
+    line-height: 23.72px;
+    color: var(--white);
+    text-align: center;
+
+
+}
+
+.still-scrolling-block {
+    position: relative;
+}
+
+.still-scrolling-block::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -100px;
+    width: 300px;
+    height: 402px;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../images/scrollingDecor.png');
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.still-scrolling-block::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 80px;
+    width: 255px;
+    height: 380px;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../images/scrollingDecor.png');
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.still-scrolling-snake {
+    position: absolute;
+}
+
+.scrolling-snake--left {
+    left: 0;
+    bottom: -100px;
+
+}
+
+.scrolling-snake--right {
+    right: 0;
+    bottom: -270px;
+}
+
+.read {
+    gap: 17px;
+    margin-top: 62px;
+}
+
+.read span {
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+
+.reviews-section {
+    position: relative;
+    background: var(--white);
+    margin-top: 108px;
+    padding: 42px 0 0;
+}
+
+.reviews-section::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -80px;
+    background-image: url('../images/reviewsDecor.png');
+    height: 542px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.reviews-body {
+    position: relative;
+    z-index: 2;
+}
+
+.reviews-items {
+    gap: 21px;
+}
+
+.reviews-items {
+    max-height: 530px;
+    overflow: hidden;
+    position: relative;
+    transition: .3s;
+}
+
+
+.reviews-items.active {
+    max-height: 3400px;
+
+}
+
+.reviews-items.active::after {
+    max-height: 3400px;
+    display: none;
+
+}
+
+.reviews-items::after {
+    width: 1200px;
+    height: 300px;
+    position: absolute;
+    content: '';
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%);
+    left: 0;
+    bottom: -100px;
+}
+
+.reviews-btn {
+    cursor: pointer;
+    transition: .3s;
+
+}
+
+.reviews-btn:hover {
+    transform: scale(1.1);
+}
+
+.reviews-btn.active {
+    transform: rotate(180deg);
+}
+
+.reviews-item {
+    background: var(--white);
+    box-shadow: 0px 2px 30px 0px rgba(90, 58, 202, 0.1);
+    border-radius: 30px;
+    max-width: 386px;
+    width: 100%;
+    padding: 24px;
+    height: max-content;
+    margin-bottom: 18px;
+
+}
+
+.reviews-item-header {
+    gap: 12px;
+}
+
+.reviews-author-img {
+    max-width: 56px;
+    width: 100%;
+    height: 56px;
+}
+
+.reviews-author-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.reviews-author-name {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: var(--black);
+
+}
+
+.reviews-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: var(--gray2);
+    margin-top: 16px;
+}
+
+.faq-body {
+    gap: 107px;
+}
+
+.faq-sub-title {
+    margin-top: 14px;
+    gap: 24px;
+}
+
+.faq-section {
+    background: var(--white);
+    padding-top: 130px;
+    margin-top: -2px;
+}
+
+.faq-titles {
+    margin-top: -15px;
+}
+
+.faq-sub-title p {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color: var(--gray);
+
+}
+
+.upside-down {
+    max-width: 40px;
+}
+
+.faq-item {
+    background: var(--white);
+    box-shadow: 0px 2px 20px 0px rgba(90, 58, 202, 0.05);
+    border-radius: 20px;
+    padding: 11px 17px;
+    min-height: 71px;
+    cursor: pointer;
+
+}
+
+.faq-item-header {
+    align-items: center;
+}
+
+.faq-item-header p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    color: var(--black);
+
+}
+
+.faq-item-icon {
+    flex: 0 0 48px;
+    height: 48px;
+    position: relative;
+    border-radius: 50%;
+    transition: .3s;
+    background: var(--primary3);
+
+}
+
+.faq-item-icon::after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 24px;
+    background: var(--green);
+    transition: .3s;
+
+
+}
+
+.faq-item-icon::before {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 24px;
+    background: var(--green);
+    transform: rotate(90deg);
+    transition: .3s;
+
+}
+
+
+.faq-item.active .faq-item-icon::after {
+    transform: rotate(-135deg);
+    transition: .3s;
+    width: 2px;
+}
+
+.faq-item.active .faq-item-icon::before {
+    transform: rotate(135deg);
+    transition: .3s;
+    width: 2px;
+
+}
+
+.faq-item.active .faq-item-sub {
+    max-height: 500px;
+    opacity: 1;
+    visibility: visible;
+    transition: .3s;
+    margin-top: 22px;
+
+
+}
+
+.faq-item-sub {
+    transition: .3s;
+    max-height: 0;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    color: var(--gray);
+    opacity: 0;
+    visibility: hidden;
+    max-width: 534px;
+
+}
+
+.faq-items {
+    gap: 10px;
+    max-width: 622px;
+    width: 100%;
+}
+
+.create-content-section {
+    padding-top: 154px;
+    background: var(--white);
+    padding-bottom: 150px;
+}
+
+.create-content-body {
+    gap: 28px;
+}
+
+.create-content-picture {
+    max-width: 279px;
+    width: 100%;
+    height: 338px;
+}
+
+.create-content-picture img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.icon-openAI-gray {
+    font-size: 22px;
+    background: var(--gray);
+}
+
+.create-btn-cnt {
+    margin-top: 40px;
+}
+
+.create-btn-cnt .btn-white {
+    background: var(--white);
+    color: var(--black);
+    border: 1px solid rgba(130, 130, 130, 1);
+}
+
+.gpt-logo {
+    max-width: 97px;
+}
+
+.gpt-infos {
+    gap: 28px;
+}
+
+.gpt-icons {
+    gap: 11px;
+}
+
+.create-title {
+    font-family: 'Soyuz Grotesk';
+    font-size: 77.08px;
+    font-weight: 700;
+    line-height: 74.23px;
+    color: var(--primary3);
+
+}
+
+.create-content-info {
+    position: relative;
+}
+
+.icon-heart {
+    max-width: 66px;
+    position: absolute;
+    right: -150px;
+    top: 0;
+    transform: rotate(18deg);
+}
+
+.create-cnt-clue {
+    background: var(--green);
+    backdrop-filter: blur(14.18821907043457px);
+    box-shadow: 0px 0px 35.47px -22.7px rgba(32, 32, 32, 0.4);
+    transform: rotate(2deg);
+    padding: 18px 60px;
+    max-width: max-content;
+    border-radius: 21px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    position: absolute;
+    right: -200px;
+    top: 100px;
+    color: var(--primary3);
+    text-align: center;
+
+}
+.possibilities-bg-mobile{
+    display: none;
+}
+
+.social-net {
+    position: absolute;
+    right: -240px;
+    top: 150px;
+}
+
+.create-content-pictures {
+    position: relative;
+}
+
+.create-picture-clues {
+    position: absolute;
+    top: -70px;
+    left: 120px;
+    width: 100%;
+}
+
+.picture-clue-text {
+    position: absolute;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+    color: var(--primary4);
+    left: 100px;
+    transform: rotate(-5deg);
+
+}
+
+.hero-snake-mobile {
+    display: none;
+}
+
+.services-mobile-snake {
+    display: none;
+}
+
+.snake-left-mobile {
+    display: none;
+
+}
+
+.snake-right-mobile {
+    display: none;
+
+}
+
+.reviews-swiper {
+    display: none !important;
+}
+
+.create-btn-cnt-mobile {
+    display: none;
+}
+
+.content-picture-mobile {
+    display: none;
+
+}
+
+.arrow-clue-mobile {
+    display: none;
+}
+
+@media (max-width: 1400px) {
+}
+
+@media (max-width: 1200px) {
+    .still-scrolling-block::after {
+        display: none;
+    }
+
+    .possibilities-white-item {
+        margin-left: 0;
+
+    }
+
+    .possibilities-items {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .create-content-body {
+        flex-direction: column-reverse;
+        gap: 88px;
+    }
+
+    .reviews-btn {
+        display: none;
+    }
+
+    .create-cnt-clue {
+        right: 0;
+    }
+
+    .icon-heart {
+        right: 0;
+    }
+
+    .social-net {
+        right: 0;
+    }
+
+    .reviews-items {
+        display: none;
+    }
+
+    .reviews-swiper-arrow {
+        width: 47px;
+        height: 47px;
+        background: var(--green);
+        border-radius: 50%;
+    }
+
+    .reviews-section::after {
+        height: 340px;
+    }
+
+    .reviews-swiper {
+        display: block !important;
+    }
+
+    .still-scrolling-block::before {
+        display: none;
+
+    }
+
+    .reviews-swiper-arrows {
+        gap: 12px;
+        margin-top: 19px;
+    }
+
+    .reviews-item {
+        min-height: 240px;
+    }
+
+    .swiper-arrow-right {
+        transform: rotate(180deg);
+    }
+
+    .swiper-arrow-icon {
+        font-size: 16px;
+        background: var(--black);
+    }
+
+    .snake-left-desktop {
+        display: none;
+    }
+
+    .snake-right-desktop {
+        display: none;
+
+    }
+
+    .hero-body {
+        flex-direction: column;
+    }
+
+    .possibilities-body {
+        flex-direction: column;
+    }
+
+    .how-works-section::after {
+        display: none;
+    }
+
+    .possibilities-item {
+        height: 390px;
+    }
+    .possibilities-white-item{
+        height: 390px;
+
+    }
+
+    .hero-snake {
+        top: unset;
+        right: -50px;
+        bottom: -100px;
+    }
+
+    .hero-text-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-blur {
+        display: none;
+    }
+
+    .hero-picture {
+        margin: 0 auto;
+    }
+
+    .for-free {
+        top: -70px;
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 992px) {
+
+    .services-column {
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+
+    .create-btn-cnt {
+        display: none;
+    }
+
+    .create-btn-cnt-mobile {
+        display: flex;
+        margin-top: 19px;
+    }
+
+    .create-content-body {
+        gap: 180px;
+    }
+
+    .create-cnt-clue {
+        top: unset;
+        bottom: -80px;
+    }
+
+    .create-btn-cnt-mobile .btn-white {
+        background: var(--white);
+        color: var(--black);
+        border: 1px solid rgba(130, 130, 130, 1);
+    }
+
+    .faq-body {
+        flex-direction: column;
+    }
+
+    .faq-items {
+        max-width: 100%;
+    }
+
+    .services-black-item {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-text-road {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+
+    .possibilities-title {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .scrolling-snake--left {
+        bottom: 110px;
+    }
+
+    .possibilities-text {
+        font-size: 14px;
+        line-height: 16.8px;
+
+    }
+
+    .still-scrolling-body {
+        margin-top: 90px;
+    }
+
+    .possibilities-clue {
+        font-size: 11.1px;
+        line-height: 15.16px;
+    }
+
+    .still-scrolling-titles h3 {
+        font-size: 29.83px;
+        line-height: 32.81px;
+
+    }
+
+    .mobile-text-none {
+        display: none;
+    }
+
+    .still-scrolling-smail {
+        display: none;
+    }
+
+    .services-average-item {
+        max-width: 100%;
+        width: 100%;
+        border-radius: 26px;
+    }
+
+    .scrolling-snake--right {
+        bottom: -300px;
+    }
+
+    .hero-arrow {
+        display: none;
+    }
+
+    .hero-picture-info {
+        align-items: flex-start;
+        background: var(--primary2);
+        border-radius: 26px;
+        border: 1.63px solid var(--black2);
+        backdrop-filter: blur(25px);
+        box-shadow: 8.15px 40px 40.74px -26.07px rgba(32, 32, 32, 0.2);
+        padding: 17px 14px 22px 14px;
+        gap: 16px;
+        min-width: 310px;
+        position: absolute;
+        bottom: -60px;
+        left: 50%;
+        transform: translateX(-50%);
+
+    }
+
+    .hero-picture {
+        max-width: 349px;
+        width: 100%;
+        height: 460px;
+        background-position: -220px 0;
+    }
+
+    .hero-main-title {
+        font-size: 65.99px;
+        font-weight: 700;
+        line-height: 63.55px;
+
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-smail--two {
+        right: -40px;
+        max-width: 130px;
+    }
+    .possibilities-descr p{
+        font-size: 14.79px;
+        line-height: 17.75px;
+    }
+    .possibilities-body{
+        gap: 52px;
+    }
+    .possibilities-text {
+        display: none;
+    }
+
+    .possibilities-item {
+        padding: 23px 18px;
+    }
+
+    .create-picture-clues {
+        top: -40px;
+    }
+
+    .picture-clue-text {
+        transform: rotate(5deg);
+    }
+
+    .arrow-clue-desktop {
+        display: none;
+    }
+
+    .arrow-clue-mobile {
+        display: block;
+    }
+
+    .create-picture-clues {
+        left: 20px;
+    }
+
+    .create-cnt-clue {
+        bottom: -100px;
+        padding: 15px 25px;
+        left: 0;
+        right: unset;
+    }
+
+    .create-title {
+        font-size: 40px;
+        line-height: 38.52px;
+        margin-top: 19px;
+    }
+
+    .content-picture-desktop {
+        display: none;
+    }
+
+    .content-picture-mobile {
+        display: block;
+    }
+
+    .create-content-picture {
+        max-width: 100%;
+        height: 192px;
+    }
+
+    .faq-section {
+        padding-top: 90px;
+    }
+
+    .social-net {
+        right: -30px;
+        top: 80px;
+    }
+
+    .faq-sub-title p {
+        font-size: 14.79px;
+        line-height: 17.75px;
+    }
+
+    .faq-body {
+        gap: 39px;
+    }
+
+    .create-content-section {
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+
+    .faq-item-header p {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 21.6px;
+
+    }
+
+    .faq-item-sub {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 16px;
+    }
+
+    .faq-item {
+        padding: 22px 16px;
+    }
+
+    .reviews-swiper {
+        overflow: unset !important;
+    }
+
+    .upside-down {
+        margin-top: -50px;
+    }
+
+    .still-scrolling-sub {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 22px;
+        margin-top: 11px;
+
+
+    }
+
+    .how-works-title {
+        font-size: 40px;
+        line-height: 38.52px;
+
+    }
+
+    .possibilities-text-mobile {
+        display: block;
+        max-width: 272px;
+        margin-top: 20px;
+        font-size: 14px;
+        line-height: 16.8px;
+    }
+
+
+    .possibilities-details-icon {
+        width: 47px;
+        height: 47px;
+        position: absolute;
+        right: 0;
+        bottom: 20px;
+
+    }
+    .possibilities-clues{
+        margin-top: 40px;
+    }
+
+    .white-details-icon {
+        width: 47px;
+        height: 47px;
+        right: 0;
+        bottom: 40px;
+
+    }
+
+    .possibilities-info {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .possibilities-arrow {
+        font-size: 16px;
+    }
+
+    .snake-left-mobile {
+        display: block;
+
+    }
+
+    .possibilities-picture {
+        max-width: 274px;
+        height: 150px;
+    }
+
+    .snake-right-mobile {
+        display: block;
+
+    }
+
+    .works-title-clue {
+        font-size: 12.87px;
+        line-height: 15.44px;
+        padding: 10px 20px;
+        left: 110px;
+        bottom: -10PX;
+
+    }
+
+    .possibilities-section {
+        padding-bottom: 150px;
+    }
+
+    .how-works-section::before {
+        top: -70px;
+        width: 100%;
+        height: 150px;
+
+    }
+
+    .how-works-section {
+        padding-top: 20px;
+        padding-bottom: 63px;
+    }
+
+    .services-section {
+        min-height: 605px;
+        padding: 140px 0 210px 0;
+        position: relative;
+    }
+
+    .works-item-titles p {
+        font-size: 27px;
+        line-height: 26px;
+    }
+
+    .works-item-titles span {
+        font-size: 27px;
+        line-height: 26px;
+    }
+
+    .services-big-item {
+        max-width: 100%;
+        min-height: 305px;
+        padding: 35px 15px 30px 15px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        background: linear-gradient(0deg, #6843EC, #6843EC),
+        linear-gradient(180deg, rgba(104, 67, 236, 0.14) -22.04%, rgba(210, 255, 58, 0.1218) 124.6%);
+        border: 1px solid rgba(255, 255, 255, 1);
+        border-radius: 26px;
+    }
+
+    .services-item-users {
+        flex-direction: column;
+        gap: 11px;
+        align-items: stretch;
+    }
+
+    .services-section::after {
+        height: 50%;
+        background-image: url('../images/servicesDecorMobile.png');
+
+    }
+
+    .services-section::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 50%;
+        background-size: cover;
+        background-position: center;
+        background-image: url('../images/servicesDecorMobile.png');
+        background-repeat: no-repeat;
+        z-index: 1;
+    }
+
+    .services-item-info {
+        margin-top: 0;
+    }
+
+    .services-users-clue {
+        font-size: 20px;
+        line-height: 27.32px;
+        letter-spacing: 0.02em;
+    }
+
+    .services-small-item p {
+        font-size: 20px;
+    }
+
+    .hero-smail--one {
+        width: 90px;
+        height: 90px;
+    }
+
+    .hero-text-road {
+        align-items: stretch;
+        margin-left: 70px;
+    }
+
+    .hero-title-clue {
+        margin-top: 53px;
+    }
+
+    .for-free {
+        top: 80px;
+        font-size: 29.32px;
+        line-height: 28.24px;
+        text-align: center;
+
+    }
+
+    .services-column {
+        gap: 10px;
+    }
+
+    .services-body {
+        gap: 10px;
+    }
+
+    .hero-text-road p::after {
+        width: 30px;
+        height: 20px;
+        background-size: contain;
+        margin-left: -50px;
+        display: block;
+    }
+
+    .hero-text-road {
+        margin-left: 60px;
+    }
+
+    .hero-btn-cnt {
+        margin-top: 59px;
+    }
+
+    .hero-text-info {
+        align-items: stretch;
+        margin-top: 0;
+    }
+
+    .hero-icons {
+        display: none;
+    }
+
+    .icon-fire {
+        display: none;
+    }
+
+    .hero-title-clue {
+        padding: 13px 24px;
+    }
+
+    .hero-title-clue p {
+        font-size: 27.87px;
+        line-height: 26.84px;
+    }
+
+    .hero-title p {
+        font-size: 14.07px;
+        line-height: 19.23px;
+
+    }
+
+    .hero-snake {
+        bottom: 0;
+    }
+
+
+    .hero-smail--one {
+        left: 30px;
+        top: 70px;
+    }
+
+    .hero-picture-info {
+        transform: translateX(-50%) rotate(4deg);
+
+    }
+
+    .read {
+        gap: 13px;
+        margin-top: 23px;
+    }
+
+    .services-small-item {
+        align-items: center;
+        gap: 22px;
+        padding: 28px 20px;
+
+    }
+
+    .read span {
+        font-size: 16.89px;
+        line-height: 20.27px;
+    }
+
+    .small-item-smiling {
+        display: block;
+        max-width: 41px;
+    }
+
+    .black-item-info h3 {
+        font-size: 23px;
+        line-height: normal;
+        padding: 13px 22px;
+
+    }
+
+    .how-works-slider {
+        margin-top: 52px;
+    }
+
+    .works-text-clue {
+        font-size: 12px;
+        line-height: 16.82px;
+        padding: 5px 14px;
+    }
+
+    .works-item-clue {
+        gap: 17px;
+        margin-top: 17px;
+    }
+
+    .works-item-picture {
+        margin-top: 18px;
+        max-width: 218px;
+        height: 140px;
+    }
+
+    .works-item-icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .how-works-item {
+        padding: 23px 24px 35px 24px;
+        border: 1px solid rgba(117, 90, 213, 1);
+        border-radius: 36px;
+        max-width: 386px;
+        width: 100%;
+        min-height: 355px;
+
+    }
+
+    .how-works-text {
+        font-size: 14px;
+        line-height: 16.8px;
+    }
+}
+
+@media (max-width: 400px) {
+    .hero-picture {
+        background-position: -270px 0;
+    }
+    .possibilities-white-item-bg {
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        z-index: -1;
+    }
+    .white-details-icon{
+        bottom: 0;
+    }
+    .possibilities-bg-desktop{
+        display: none;
+    }
+    .possibilities-bg-mobile{
+        display: block;
+    }
+    .how-works-item {
+        max-width: 266px;
+    }
+
+    .reviews-section::after {
+        height: 100px;
+    }
+
+    .reviews-section {
+        padding: 20px 0 0;
+    }
+
+    .how-works-section::before {
+        height: 90px;
+    }
+    .possibilities-details-icon{
+        bottom: 0;
+    }
+    .possibilities-clue{
+        padding: 5px 12px;
+    }
+    .possibilities-section::after {
+
+        top: -100px;
+        background-image: url('../images/reviewsDecor.png');
+        height: 120px;
+
+
+    }
+
+}
+
+@media (max-width: 361px) {
+
+    .hero-snake-desktop {
+        display: none;
+    }
+
+    .services-mobile-snake {
+        display: block;
+        position: absolute;
+        bottom: -300px;
+
+    }
+
+    .hero-snake-mobile {
+        display: block;
+
+    }
+
+    .hero-snake {
+        right: 0;
+    }
+}

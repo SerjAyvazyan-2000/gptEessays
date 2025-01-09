@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+.icon {
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+    mask-size: contain;
+    -webkit-mask-size: contain;
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+    mask-position: center;
+    -webkit-mask-position: center;
+}
+.icon-arrow-right{
+    mask-image: url(arrowRight.svg);
+    -webkit-mask-image: url(arrowRight.svg);
+}
+.hero-arrow-right{
+    mask-image: url(arrowRight.svg);
+    -webkit-mask-image: url(arrowRight.svg);
+}
+.icon-openAI{
+    mask-image: url(openAI.svg);
+    -webkit-mask-image: url(openAI.svg);
+}
+.possibilities-arrow{
+    mask-image: url(arrowRight.svg);
+    -webkit-mask-image: url(arrowRight.svg);
+}
+.icon-openAI-gray{
+    mask-image: url(openAI.svg);
+    -webkit-mask-image: url(openAI.svg);
+}
+.swiper-arrow-right{
+    mask-image: url(arrowRight.svg);
+    -webkit-mask-image: url(arrowRight.svg);
+}
+.swiper-arrow-left{
+    mask-image: url(arrowRight.svg);
+    -webkit-mask-image: url(arrowRight.svg);
+}
