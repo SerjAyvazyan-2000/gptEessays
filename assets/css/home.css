@@ -1532,11 +1532,11 @@
     }
 
     .possibilities-item {
-        height: 390px;
+        height: 395px;
     }
 
     .possibilities-white-item {
-        height: 390px;
+        height: 395px;
 
     }
 
@@ -2026,6 +2026,9 @@
 
     .hero-btn-cnt {
         margin-top: 59px;
+    }
+    .hero-btn-cnt .btn-white{
+        padding: 22px;
     }
 
     .hero-text-info {
