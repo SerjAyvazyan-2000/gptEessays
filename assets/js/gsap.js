@@ -42,7 +42,7 @@ gsap.fromTo('.possibilities-item--one',
 gsap.fromTo('.possibilities-item--two',
     { y: 0 },
     {
-        y: isMobile ? -445 : -370,
+        y: isMobile ? -440 : -370,
         scrollTrigger: {
             trigger: '.possibilities-section',
             start: "top+=100 top",
@@ -55,7 +55,7 @@ gsap.fromTo('.possibilities-item--two',
 gsap.fromTo('.possibilities-item--tree',
     { y: 0 },
     {
-        y: isMobile ? -850 : -740,
+        y: isMobile ? -840 : -740,
         scrollTrigger: {
             trigger: '.possibilities-section',
             start: "top+=200 top",
@@ -68,7 +68,7 @@ gsap.fromTo('.possibilities-item--tree',
 gsap.fromTo('.possibilities-item--for',
     { y: 0 },
     {
-        y: isMobile ? -1255 : -1115,
+        y: isMobile ? -1240 : -1115,
         scrollTrigger: {
             trigger: '.possibilities-section',
             start: "top+=300 top",
@@ -81,7 +81,7 @@ gsap.fromTo('.possibilities-item--for',
 gsap.fromTo('.possibilities-item--five',
     { y: 0 },
     {
-        y: isMobile ? -1663 : -1480,
+        y: isMobile ? -1640 : -1480,
         scrollTrigger: {
             trigger: '.possibilities-section',
             start: "top+=400 top",
@@ -94,7 +94,7 @@ gsap.fromTo('.possibilities-item--five',
 gsap.fromTo('.possibilities-item--six',
     { y: 0 },
     {
-        y: isMobile ? -2067 : -1850, // Увеличиваем на 200 для мобильных
+        y: isMobile ? -2040 : -1850, // Увеличиваем на 200 для мобильных
         scrollTrigger: {
             trigger: '.possibilities-section',
             start: "top+=500 top",
