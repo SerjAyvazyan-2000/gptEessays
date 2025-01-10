@@ -24,12 +24,12 @@
 
 
 gsap.registerPlugin(ScrollTrigger);
-const isMobile = window.innerWidth < 700;
+const isMobile = window.innerWidth < 1096;
 
 gsap.fromTo('.possibilities-item--one',
     { y: 0 },
     {
-        y: isMobile ? -20 : 0,
+        y: isMobile ? -40 : 0,
         scrollTrigger: {
             trigger: '.possibilities-section',
             start: "top top",
@@ -42,7 +42,7 @@ gsap.fromTo('.possibilities-item--one',
 gsap.fromTo('.possibilities-item--two',
     { y: 0 },
     {
-        y: isMobile ? -440 : -350,
+        y: isMobile ? -440 : -370,
         scrollTrigger: {
             trigger: '.possibilities-section',
             start: "top+=100 top",
@@ -55,7 +55,7 @@ gsap.fromTo('.possibilities-item--two',
 gsap.fromTo('.possibilities-item--tree',
     { y: 0 },
     {
-        y: isMobile ? -840 : -730,
+        y: isMobile ? -840 : -740,
         scrollTrigger: {
             trigger: '.possibilities-section',
             start: "top+=200 top",
@@ -68,7 +68,7 @@ gsap.fromTo('.possibilities-item--tree',
 gsap.fromTo('.possibilities-item--for',
     { y: 0 },
     {
-        y: isMobile ? -1240 : -1100,
+        y: isMobile ? -1240 : -1115,
         scrollTrigger: {
             trigger: '.possibilities-section',
             start: "top+=300 top",
@@ -81,7 +81,7 @@ gsap.fromTo('.possibilities-item--for',
 gsap.fromTo('.possibilities-item--five',
     { y: 0 },
     {
-        y: isMobile ? -1640 : -1470,
+        y: isMobile ? -1640 : -1480,
         scrollTrigger: {
             trigger: '.possibilities-section',
             start: "top+=400 top",
@@ -108,7 +108,7 @@ gsap.fromTo('.possibilities-item--six',
 gsap.to('.possibilities-section', {
     scrollTrigger: {
         trigger: '.possibilities-section',
-        start: "top 10%",
+        start: "top 4%",
 
         end: "bottom top", // Окончание — когда нижняя часть секции выходит за экран
         scrub: true,

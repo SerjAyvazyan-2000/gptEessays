@@ -61,11 +61,11 @@ window.addEventListener('scroll', function () {
 function toggleActiveState(item) {
     const allItems = document.querySelectorAll('.faq-item');
 
-    // allItems.forEach(otherItem => {
-    //     if (otherItem !== item) {
-    //         otherItem.classList.remove('active');
-    //     }
-    // });
+    allItems.forEach(otherItem => {
+        if (otherItem !== item) {
+            otherItem.classList.remove('active');
+        }
+    });
 
     item.classList.toggle('active');
 }
