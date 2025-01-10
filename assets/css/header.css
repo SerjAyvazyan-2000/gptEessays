@@ -164,6 +164,7 @@ header.moved .header-decor {
         padding: 6px 0;
         border-bottom: 1px solid #939393;
         text-align: start;
+        color: var(--white);
 
     }
     .menu-bg {
@@ -301,7 +302,9 @@ header.moved .header-decor {
     }
 
     .header-mobile-actions{
-        display: block;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
     }
 
 

@@ -149,6 +149,9 @@ main {
     .desktop-text-wrap {
         display: inline;
     }
+    .btn-white {
+        padding: 22px;
+    }
 }
 
 @media (max-width: 576px) {

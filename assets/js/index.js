@@ -61,11 +61,11 @@ window.addEventListener('scroll', function () {
 function toggleActiveState(item) {
     const allItems = document.querySelectorAll('.faq-item');
 
-    allItems.forEach(otherItem => {
-        if (otherItem !== item) {
-            otherItem.classList.remove('active');
-        }
-    });
+    // allItems.forEach(otherItem => {
+    //     if (otherItem !== item) {
+    //         otherItem.classList.remove('active');
+    //     }
+    // });
 
     item.classList.toggle('active');
 }
@@ -143,10 +143,12 @@ document.addEventListener("DOMContentLoaded", function () {
 document.addEventListener("DOMContentLoaded", function () {
     const button = document.querySelector('.reviews-btn');
     const reviewsList = document.querySelector('.reviews-items');
+    const  reviewCnt= document.querySelector('.reviews-cnt');
 
     button.addEventListener('click', function() {
         reviewsList.classList.toggle('active');
         button.classList.toggle('active');
+        reviewCnt.classList.toggle('active');
 
     });
 });
