@@ -24,7 +24,7 @@
 
 
 gsap.registerPlugin(ScrollTrigger);
-const isMobile = window.innerWidth < 1096;
+const isMobile = window.innerWidth < 1200;
 
 gsap.fromTo('.possibilities-item--one',
     { y: 0 },
@@ -42,7 +42,7 @@ gsap.fromTo('.possibilities-item--one',
 gsap.fromTo('.possibilities-item--two',
     { y: 0 },
     {
-        y: isMobile ? -440 : -370,
+        y: isMobile ? -443 : -370,
         scrollTrigger: {
             trigger: '.possibilities-section',
             start: "top+=100 top",
@@ -55,7 +55,7 @@ gsap.fromTo('.possibilities-item--two',
 gsap.fromTo('.possibilities-item--tree',
     { y: 0 },
     {
-        y: isMobile ? -840 : -740,
+        y: isMobile ? -846 : -740,
         scrollTrigger: {
             trigger: '.possibilities-section',
             start: "top+=200 top",
@@ -68,7 +68,7 @@ gsap.fromTo('.possibilities-item--tree',
 gsap.fromTo('.possibilities-item--for',
     { y: 0 },
     {
-        y: isMobile ? -1240 : -1115,
+        y: isMobile ? -1248 : -1115,
         scrollTrigger: {
             trigger: '.possibilities-section',
             start: "top+=300 top",
@@ -81,7 +81,7 @@ gsap.fromTo('.possibilities-item--for',
 gsap.fromTo('.possibilities-item--five',
     { y: 0 },
     {
-        y: isMobile ? -1640 : -1480,
+        y: isMobile ? -1650 : -1480,
         scrollTrigger: {
             trigger: '.possibilities-section',
             start: "top+=400 top",
@@ -94,7 +94,7 @@ gsap.fromTo('.possibilities-item--five',
 gsap.fromTo('.possibilities-item--six',
     { y: 0 },
     {
-        y: isMobile ? -2040 : -1850, // Увеличиваем на 200 для мобильных
+        y: isMobile ? -2054 : -1850, // Увеличиваем на 200 для мобильных
         scrollTrigger: {
             trigger: '.possibilities-section',
             start: "top+=500 top",
