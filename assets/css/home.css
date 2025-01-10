@@ -14,7 +14,7 @@
     width: 100%;
     height: 649px;
     position: relative;
-    background-position: -300px 0;
+    background-position: -320px 0;
     z-index: 4;
 
 }
@@ -90,20 +90,35 @@
     height: 11px;
     background: rgba(88, 238, 42, 1);
     right: 0;
-    top: 12px;
+    top: 0;
     border-radius: 50%;
 
 }
 
 
 .picture-info {
+    position: relative;
+}
+
+.picture-info-graph {
+    position: absolute;
+    bottom: -12px;
+    right: 0;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    color: var(--white);
+    opacity: .6;
+
+
+}
+
+.picture-info p {
     color: var(--white);
     max-width: 210px;
     font-size: 15px;
     font-weight: 400;
     line-height: 16.5px;
-
-
 }
 
 .hero-text-info {
@@ -199,6 +214,7 @@
     gap: 22px;
     margin-top: 28px;
     flex-wrap: wrap;
+    position: relative;
 
 }
 
@@ -231,7 +247,7 @@
 
 .icon-fire {
     max-width: 53px;
-    transform: rotate(14deg);
+    transform: rotate(24deg);
     margin-left: -20px;
 }
 
@@ -246,7 +262,7 @@
     position: absolute;
     left: 0;
     top: 0;
-    width: 100%;
+    width: 2000px;
     height: 100%;
     background-size: cover;
     background-position: center;
@@ -259,7 +275,7 @@
     content: "";
     position: absolute;
     left: 0;
-    bottom:0;
+    bottom: 0;
     background-image: url('../images/reviewsDecor.png');
     height: 40px;
     background-position: center;
@@ -269,7 +285,6 @@
     z-index: 2;
 
 }
-
 
 
 .services-body {
@@ -293,7 +308,7 @@
 }
 
 .services-item-users {
-    gap: 27px;
+    gap: 26px;
 }
 
 .services-users-clue {
@@ -396,7 +411,7 @@
     border: 1.42px solid rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(14.18821907043457px);
     box-shadow: 7.09px 17.41px 35.47px -22.7px rgba(32, 32, 32, 0.4);
-    padding: 16px 22px;
+    padding: 12px 22px 16px 25px;
     transform: rotate(6deg);
     border-radius: 21.28px;
     max-width: max-content;
@@ -492,6 +507,10 @@
     margin-top: 22px;
 }
 
+.possibilities-main-title {
+    margin-top: -20px;
+}
+
 .possibilities-descr p {
     font-size: 20px;
     font-weight: 600;
@@ -516,7 +535,7 @@
     gap: 70px;
     position: relative;
     z-index: 3;
-    padding: 40px 0 0 ;
+    padding: 40px 0 0;
 }
 
 .possibilities-item {
@@ -536,6 +555,8 @@
     position: relative;
     padding: 32px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 10px;
+
 }
 
 .possibilities-item-bg {
@@ -570,26 +591,6 @@
 
 }
 
-
-.possibilities-item:hover .possibilities-title {
-    color: #ff6347;
-    transition: color 0.3s ease;
-}
-
-.possibilities-item:hover .possibilities-text {
-    color: #ffa07a;
-    transition: color 0.3s ease;
-}
-
-.possibilities-white-item:hover .possibilities-title {
-    color: #ff6347;
-    transition: color 0.3s ease;
-}
-
-.possibilities-white-item:hover .possibilities-text {
-    color: #ffa07a;
-    transition: color 0.3s ease;
-}
 
 .details-icon {
     transition: transform 0.3s ease, color 0.3s ease;
@@ -785,7 +786,14 @@
 
 .how-works-titles {
     position: relative;
+    max-width: 600px;
 
+}
+
+.works-fire {
+    position: absolute;
+    right: 0;
+    top: 10px;
 }
 
 .how-works-title {
@@ -1057,7 +1065,7 @@
 }
 
 .reviews-items {
-    max-height: 530px;
+    max-height: 520px;
     position: relative;
     transition: .3s;
 }
@@ -1088,6 +1096,7 @@
     cursor: pointer;
     transition: .3s;
     position: relative;
+    padding-bottom: 10px;
 
 }
 
@@ -1097,6 +1106,10 @@
 
 .reviews-btn.active {
     transform: rotate(180deg);
+}
+
+.reviews-btn.active:hover {
+    transform: scale(1.1) rotate(180deg);
 }
 
 .reviews-item {
@@ -1248,7 +1261,8 @@
     opacity: 1;
     visibility: visible;
     transition: .3s;
-    margin-top: 22px;
+    margin-top: 20px;
+    padding-bottom: 20px;
 
 
 }
@@ -1321,6 +1335,15 @@
 .gpt-icons {
     gap: 11px;
 }
+.gpt-icons p{
+    font-size: 17.04px;
+    font-weight: 500;
+    line-height: 23.28px;
+    color: var(--gray);
+
+
+}
+
 
 .create-title {
     font-family: 'Soyuz Grotesk';
@@ -1429,6 +1452,7 @@
 .arrow-clue-mobile {
     display: none;
 }
+
 .hero-mobile-clue {
     display: none;
 }
@@ -1444,6 +1468,11 @@
 }
 
 @media (max-width: 1400px) {
+    .icon-fire {
+        position: absolute;
+        right: 0;
+        top: -50px;
+    }
 }
 
 @media (max-width: 1200px) {
@@ -1588,10 +1617,12 @@
         width: 100%;
         flex-direction: column-reverse;
     }
+
     .how-works-section {
         padding-top: 0;
 
     }
+
     .create-btn-cnt {
         display: none;
     }
@@ -1635,8 +1666,18 @@
         gap: 20px;
     }
 
+    .services-section::after {
+        width: 700px;
+
+    }
+
+    .icon-fire {
+        right: -50px;
+        top: 0;
+    }
+
     .works-btn-cnt {
-       margin: 52px auto;
+        margin: 52px auto;
     }
 
 
@@ -1684,6 +1725,15 @@
         border-radius: 26px;
     }
 
+    .works-title-clue {
+        font-size: 12.87px;
+        line-height: 15.44px;
+        padding: 10px 20px;
+        left: 110px;
+        bottom: -10PX;
+
+    }
+
     .scrolling-snake--right {
         bottom: -300px;
     }
@@ -1709,6 +1759,7 @@
 
     }
 
+
     .hero-picture {
         max-width: 349px;
         width: 100%;
@@ -1722,6 +1773,12 @@
         line-height: 63.55px;
 
     }
+
+    .how-works-title {
+        font-size: 40px;
+        line-height: 38.52px;
+
+    }
 }
 
 @media (max-width: 576px) {
@@ -1729,9 +1786,16 @@
         right: -40px;
         max-width: 130px;
     }
+
+    .works-fire {
+        top: 5px;
+        max-width: 35px;
+    }
+
     .hero-desktop-clue {
         display: none;
     }
+
     .hero-mobile-clue {
         display: flex;
     }
@@ -1753,11 +1817,13 @@
     .hero-desktop-btn {
         display: none;
     }
+
     .possibilities-item-bg img {
         width: 100%;
         height: 100%;
         border-radius: 30px;
     }
+
     .possibilities-descr p {
         font-size: 14.79px;
         line-height: 17.75px;
@@ -1879,11 +1945,6 @@
 
     }
 
-    .how-works-title {
-        font-size: 40px;
-        line-height: 38.52px;
-
-    }
 
     .possibilities-text-mobile {
         display: block;
@@ -1939,14 +2000,6 @@
 
     }
 
-    .works-title-clue {
-        font-size: 12.87px;
-        line-height: 15.44px;
-        padding: 10px 20px;
-        left: 110px;
-        bottom: -10PX;
-
-    }
 
     .possibilities-section {
         padding-bottom: 150px;
@@ -2079,7 +2132,8 @@
     .hero-btn-cnt {
         margin-top: 59px;
     }
-    .hero-btn-cnt .btn-white{
+
+    .hero-btn-cnt .btn-white {
         padding: 22px;
     }
 
@@ -2195,6 +2249,7 @@
         font-size: 14px;
         line-height: 16.8px;
     }
+
     .possibilities-white-item-bg {
         position: absolute;
         width: 110%;
@@ -2209,6 +2264,7 @@
     .hero-picture {
         background-position: -270px 0;
     }
+
     .hero-picture::after {
         content: "";
         position: absolute;
@@ -2220,6 +2276,7 @@
         border-radius: 50%;
         border: 1.63px solid rgba(255, 255, 255, 0.1);
     }
+
     .possibilities-white-item-bg {
         width: 100%;
         height: 100%;
@@ -2292,6 +2349,7 @@
         display: block;
 
     }
+
     .hero-snake {
         right: 0;
         top: -320px;

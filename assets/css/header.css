@@ -7,12 +7,14 @@ header {
     z-index: 10;
 
 }
+
 header.moved .header-body {
     margin-top: 10px;
     padding: 5px 20px;
     min-height: 60px;
 
 }
+
 header.moved .header-decor {
     opacity: 0;
     visibility: hidden;
@@ -57,6 +59,10 @@ header.moved .header-decor {
     width: 100%;
 }
 
+.menu {
+    margin-left: 126px;
+}
+
 .menu-list {
     gap: 39px;
 }
@@ -77,6 +83,7 @@ header.moved .header-decor {
 
 .header-actions {
     gap: 10px;
+    margin-left: auto;
 }
 
 .btn-login {
@@ -101,7 +108,6 @@ header.moved .header-decor {
 }
 
 
-
 .btn-register {
     padding: 12px 30px;
     background: var(--primary);
@@ -122,9 +128,10 @@ header.moved .header-decor {
     color: var(--black);
 }
 
-.header-mobile-actions{
+.header-mobile-actions {
     display: none;
 }
+
 .menu-content-mobile {
     display: none;
 }
@@ -140,7 +147,12 @@ header.moved .header-decor {
 
 @media (max-width: 1200px) {
 
-
+    .menu {
+        margin-left: 0;
+    }
+    .header-body{
+        gap: 10px;
+    }
 }
 
 @media (max-width: 992px) {
@@ -150,15 +162,18 @@ header.moved .header-decor {
         transition: .3s;
         z-index: 3;
     }
+
     .menu-list {
         margin-top: 136px;
         flex-direction: column;
         gap: 12px;
         flex: 1 1 auto;
     }
-    .menu-item{
+
+    .menu-item {
         width: 100%;
     }
+
     .menu-link {
         width: 100%;
         padding: 6px 0;
@@ -167,6 +182,7 @@ header.moved .header-decor {
         color: var(--white);
 
     }
+
     .menu-bg {
         background: #000000BF;
         backdrop-filter: blur(6px);
@@ -179,6 +195,7 @@ header.moved .header-decor {
         transition: .3s;
 
     }
+
     .burger {
         flex: 0 0 23px;
         height: 18px;
@@ -228,10 +245,12 @@ header.moved .header-decor {
         opacity: 0;
         visibility: hidden;
     }
+
     .menu-content-mobile {
         display: block;
         padding: 80px 0 24px;
     }
+
     .burger.active::before {
         transform: rotate(-45deg);
         top: 5px;
@@ -274,6 +293,7 @@ header.moved .header-decor {
     .menu.active {
         right: 0;
     }
+
     .header-body {
         justify-content: stretch;
     }
@@ -301,25 +321,27 @@ header.moved .header-decor {
         display: none;
     }
 
-    .header-mobile-actions{
+    .header-mobile-actions {
         display: flex;
         flex-direction: column;
         gap: 10px;
     }
 
 
-    .header-logo{
+    .header-logo {
         max-width: 67px;
         height: 29px;
         margin-left: 2px;
     }
-    .header-body{
+
+    .header-body {
         justify-content: space-between;
         padding: 14px 16px;
         border-radius: 100px;
         min-height: 56px;
     }
-    .header-decor::after{
+
+    .header-decor::after {
         display: none;
     }
 }
