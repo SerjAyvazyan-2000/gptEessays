@@ -1709,7 +1709,11 @@
         right: -40px;
         max-width: 130px;
     }
-
+    .possibilities-item-bg img {
+        width: 100%;
+        height: 100%;
+        border-radius: 30px;
+    }
     .possibilities-descr p {
         font-size: 14.79px;
         line-height: 17.75px;
@@ -1863,7 +1867,7 @@
         width: 47px;
         height: 47px;
         right: 0;
-        bottom: 40px;
+        bottom: 20px;
 
     }
 
@@ -2145,6 +2149,14 @@
     .how-works-text {
         font-size: 14px;
         line-height: 16.8px;
+    }
+    .possibilities-white-item-bg {
+        position: absolute;
+        width: 110%;
+        height: 120%;
+        left: -18px;
+        top: -34px;
+        z-index: -1;
     }
 }
 
