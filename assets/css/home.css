@@ -1575,7 +1575,10 @@
         width: 100%;
         flex-direction: column-reverse;
     }
+    .how-works-section {
+        padding-top: 0;
 
+    }
     .create-btn-cnt {
         display: none;
     }
@@ -1617,6 +1620,10 @@
     .hero-text-road {
         flex-direction: column;
         gap: 20px;
+    }
+
+    .works-btn-cnt {
+       margin: 52px auto;
     }
 
 
