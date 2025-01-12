@@ -1790,8 +1790,8 @@
     .hero-picture {
         max-width: 349px;
         width: 100%;
-        height: 460px;
-        background-position: -220px 0;
+        height: 360px;
+        background-position: -190px 0;
     }
 
     .hero-main-title {
@@ -1813,7 +1813,9 @@
         right: -40px;
         max-width: 130px;
     }
-
+    .hero-picture {
+        margin: -40px auto;
+    }
     .picture-info p {
         font-size: 12px;
         line-height: 13.89px;
@@ -2181,7 +2183,9 @@
     }
 
     .hero-btn-cnt {
-        margin: 14px auto;
+        margin: 50px auto auto;
+        position: relative;
+        z-index: 4;
     }
 
 
@@ -2453,11 +2457,7 @@
         left: 0;
     }
 
-    .hero-btn-cnt {
-        position: relative;
-        z-index: 4;
 
-    }
 
 }
 
