@@ -1645,6 +1645,9 @@
         flex-direction: column-reverse;
     }
 
+    .hero-smail--one {
+        left: -62px;
+    }
     .how-works-section {
         padding-top: 0;
 
