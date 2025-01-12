@@ -1803,6 +1803,7 @@
         right: -40px;
         max-width: 130px;
     }
+
     .picture-info p {
         font-size: 12px;
         line-height: 13.89px;
@@ -2313,33 +2314,36 @@
         background-position: -120px 0;
         height: 294px;
     }
+
     .services-section {
         min-height: 605px;
         padding: 70px 0 210px 0;
         position: relative;
     }
+
     .for-free {
         right: 0;
 
     }
-    .picture-info-graph{
+
+    .picture-info-graph {
         font-size: 10px !important;
         bottom: -20px;
     }
+
     .services-section::after {
         width: 440px;
         top: 40px;
 
 
     }
+
     .hero-picture::after {
         right: 30px;
         bottom: 100px;
         width: 19px;
         height: 19px;
     }
-
-
 
 
     .hero-smail--two {
@@ -2359,7 +2363,6 @@
         flex: 0 0 45px;
         height: 45px;
     }
-
 
 
     .possibilities-white-item-bg {
@@ -2417,8 +2420,7 @@
 
 }
 
-@media (max-width: 361px) {
-
+@media (max-width: 415px) {
     .hero-snake-desktop {
         display: none;
     }
@@ -2432,11 +2434,30 @@
 
     .hero-snake-mobile {
         display: block;
+        width: 100%;
 
     }
 
     .hero-snake {
-        right: 0;
-        top: -320px;
+        top: -420px;
+        left: 0;
     }
-}
+
+    .hero-btn-cnt {
+        position: relative;
+        z-index: 4;
+
+    }
+
+    @media (max-width: 361px) {
+        .hero-snake {
+            top: -320px;
+            left: 0;
+        }
+
+        .hero-snake-mobile {
+            width: max-content;
+
+        }
+
+    }
