@@ -170,5 +170,7 @@ main {
 }
 
 @media (max-width: 400px) {
-
+    main {
+        margin-top: 100px;
+    }
 }
