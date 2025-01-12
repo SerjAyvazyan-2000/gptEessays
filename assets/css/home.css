@@ -7,6 +7,8 @@
 
 .hero-section {
     position: relative;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .hero-picture {
@@ -127,7 +129,7 @@
 }
 
 .hero-title {
-    gap: 32px;
+    gap: 14px;
 }
 
 .hero-title p {
@@ -167,7 +169,7 @@
     box-shadow: 7.09px 17.41px 35.47px -22.7px rgba(32, 32, 32, 0.4);
     transform: rotate(2deg);
     border-radius: 21.28px;
-    margin-top: 140px;
+    margin-top: 110px;
     max-width: max-content;
     padding: 14px 28px;
     gap: 10px;
@@ -197,9 +199,17 @@
 }
 
 .hero-btn-cnt {
-    margin-top: 110px;
+    margin-top: 70px;
 }
-
+.hero-btn-cnt .btn-white{
+    background: var(--green);
+    color: var(--black5);
+    font-size: 26px;
+}
+.hero-btn-cnt .btn-white:hover{
+    background: var(--white);
+    color: var(--black5);
+}
 .icon-arrow-right {
     font-size: 25px;
     background: var(--green);
@@ -1846,7 +1856,7 @@
         background: var(--green);
         color: var(--black);
         font-weight: 600;
-        font-size: 18px;
+        font-size: 16px;
         padding: 20px 41px;
     }
 

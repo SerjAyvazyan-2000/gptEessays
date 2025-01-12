@@ -4,6 +4,7 @@
     --white3: rgba(222, 222, 222, 1);
 
     --black: rgba(26, 26, 26, 1);
+    --black5: rgba(30, 30, 31, 1);
     --black2: rgba(255, 255, 255, 0.1);
     --black3: rgba(255, 255, 255, 0.2);
     --black4: rgba(34, 32, 37, 1);
@@ -28,7 +29,7 @@
 
 main {
     flex: 1 1 auto;
-    margin-top: 187px;
+    margin-top: 130px;
 }
 
 .container {
