@@ -11,7 +11,8 @@ gsap.fromTo('.possibilities-item--one',
             trigger: '.possibilities-section',
             start: "top top",
             end: "top+=100 top",
-            scrub: true,
+            scrub: 2,
+            ease: "power2.out",
         }
     }
 );
@@ -20,10 +21,11 @@ gsap.to('.possibilities-item--one', {
     scale: 0.9,
     opacity: 0,
     scrollTrigger: {
-        trigger: '.possibilities-item--two', // Следующая карточка
-        start: "top+=60% center", // Начало перекрытия на 60%
-        end: "top+=50% center", // Конец перекрытия на 80%
-        scrub: true,
+        trigger: '.possibilities-item--two',
+        start: "top+=60% center",
+        end: "top+=50% center",
+        scrub: 2,
+        ease: "power2.out",
     }
 });
 
@@ -35,7 +37,8 @@ gsap.fromTo('.possibilities-item--two',
             trigger: '.possibilities-section',
             start: "top top",
             end: "top+=200 top",
-            scrub: true,
+            scrub: 2,
+            ease: "power2.out",
         }
     }
 );
@@ -44,10 +47,11 @@ gsap.to('.possibilities-item--two', {
     scale: 0.9,
     opacity: 0,
     scrollTrigger: {
-        trigger: '.possibilities-item--tree', // Следующая карточка
-        start: "top+=0% center", // Начало перекрытия на 60%
-        end: "top+=20 center", // Конец перекрытия на 80%
-        scrub: true,
+        trigger: '.possibilities-item--tree',
+        start: "top+=0% center",
+        end: "top+=20 center",
+        scrub: 2,
+        ease: "power2.out",
     }
 });
 
@@ -59,7 +63,8 @@ gsap.fromTo('.possibilities-item--tree',
             trigger: '.possibilities-section',
             start: "top+=200 top",
             end: "top+=300 top",
-            scrub: true,
+            scrub: 2,
+            ease: "power2.out",
         }
     }
 );
@@ -68,10 +73,11 @@ gsap.to('.possibilities-item--tree', {
     scale: 0.9,
     opacity: 0,
     scrollTrigger: {
-        trigger: '.possibilities-item--for', // Следующая карточка
-        start: "top-=320 center", // Начало перекрытия на 60%
-        end: "top+=40 center", // Конец перекрытия на 80%
-        scrub: true,
+        trigger: '.possibilities-item--for',
+        start: "top-=320 center",
+        end: "top+=40 center",
+        scrub: 2,
+        ease: "power2.out",
     }
 });
 
@@ -83,7 +89,8 @@ gsap.fromTo('.possibilities-item--for',
             trigger: '.possibilities-section',
             start: "top+=200 top",
             end: "top+=400 top",
-            scrub: true,
+            scrub: 2,
+            ease: "power2.out",
         }
     }
 );
@@ -92,10 +99,11 @@ gsap.to('.possibilities-item--for', {
     scale: 0.9,
     opacity: 0,
     scrollTrigger: {
-        trigger: '.possibilities-item--five', // Следующая карточка
-        start: "top-=650 center", // Начало перекрытия на 60%
-        end: "top+=50% center", // Конец перекрытия на 80%
-        scrub: true,
+        trigger: '.possibilities-item--five',
+        start: "top-=650 center",
+        end: "top+=50% center",
+        scrub: 2,
+        ease: "power2.out",
     }
 });
 
@@ -107,7 +115,8 @@ gsap.fromTo('.possibilities-item--five',
             trigger: '.possibilities-section',
             start: "top+=400 top",
             end: "top+=500 top",
-            scrub: true,
+            scrub: 2,
+            ease: "power2.out",
         }
     }
 );
@@ -116,10 +125,11 @@ gsap.to('.possibilities-item--five', {
     scale: 0.9,
     opacity: 0,
     scrollTrigger: {
-        trigger: '.possibilities-item--six', // Следняя карточка
-        start: "top-=850 center", // Начало перекрытия на 60%
-        end: "top+=50% center", // Конец перекрытия на 80%
-        scrub: true,
+        trigger: '.possibilities-item--six',
+        start: "top-=850 center",
+        end: "top+=50% center",
+        scrub: 2,
+        ease: "power2.out",
     }
 });
 
@@ -131,17 +141,19 @@ gsap.fromTo('.possibilities-item--six',
             trigger: '.possibilities-section',
             start: "top+=600 top",
             end: "top+=600 top",
-            scrub: true,
+            scrub: 2,
+            ease: "power2.out",
         }
     }
 );
 
 gsap.to('.possibilities-item--six', {
     scrollTrigger: {
-        trigger: '.possibilities-section', // Нет следующей карточки
-        start: "top+=60% center", // Начало перекрытия на 60%
-        end: "top+=80% center", // Конец перекрытия на 80%
-        scrub: true,
+        trigger: '.possibilities-section',
+        start: "top+=60% center",
+        end: "top+=80% center",
+        scrub: 2,
+        ease: "power2.out",
     }
 });
 
